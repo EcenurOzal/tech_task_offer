@@ -700,11 +700,4 @@ List<DetailedLoanInstallment> createInstallmentList(
   return installments;
 }
 
-class DetailLoanTable extends StatelessWidget {
-  const DetailLoanTable({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
