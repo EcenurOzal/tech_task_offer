@@ -1,8 +1,8 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 enum LoanType {
   personalLoan(0),
-  vehicleLoan(1),
-  mortgageLoan(2);
+  vehicleLoan(2),
+  mortgageLoan(1);
 
   final int value;
   const LoanType(this.value);

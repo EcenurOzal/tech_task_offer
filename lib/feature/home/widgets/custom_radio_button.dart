@@ -23,9 +23,8 @@ class CustomRadioButton extends StatelessWidget {
       child: Row(children: [
         CircleAvatar(
           radius: 10,
-          backgroundColor: isSelected
-              ? context.xMaterialColorTheme.primary
-              : context.xMaterialColorTheme.primaryContainer,
+          backgroundColor:
+              isSelected ? context.xMaterialColorTheme.primary : context.xMaterialColorTheme.primaryContainer,
         ),
 
         //

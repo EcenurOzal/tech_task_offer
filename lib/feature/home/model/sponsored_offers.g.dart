@@ -24,7 +24,7 @@ SponsoredOffers _$SponsoredOffersFromJson(Map<String, dynamic> json) =>
       listType: json['list_type'] as int?,
       logoUrl: json['logo_url'] as String?,
       productType: json['product_type'] as int?,
-      sponsoredRate: json['sponsored_rate'] as int?,
+      sponsoredRate: json['sponsored_rate'] as num?,
     );
 
 Map<String, dynamic> _$SponsoredOffersToJson(SponsoredOffers instance) =>

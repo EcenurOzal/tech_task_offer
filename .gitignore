@@ -1,0 +1,37 @@
+
+# Flutter/Dart spesifik dosya ve dizinler
+.idea/
+.vscode/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+/ios/Pods/
+/android/.gradle/
+/android/.idea/
+/android/app/debug.keystore
+/android/app/release.keystore
+
+# Derleme sonuçları
+build/
+windows/
+/ios/Flutter/App.framework/
+/ios/Flutter/Flutter.framework/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/Generated.xcconfig.sample
+/ios/Flutter/App.framework/
+/ios/Flutter/Flutter.framework/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/Generated.xcconfig.sample
+/ios/Flutter/flutter_assets/
+
+# IDE'ye özgü dosya ve dizinler
+.idea/
+.vscode/
+*.iml
+*.iws
+*.DS_Store
+*.android
+*.ios
+*.apk
+*.log

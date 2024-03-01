@@ -54,9 +54,7 @@ class _CustomDropDownState extends State<CustomDropDown> {
                 Text(
                   widget.selectedLoan.loanType.turkishName,
                   style: TextStyle(
-                      fontSize: 14,
-                      fontWeight: FontWeight.bold,
-                      color: context.xMaterialColorTheme.onPrimaryContainer),
+                      fontSize: 14, fontWeight: FontWeight.bold, color: context.xMaterialColorTheme.onPrimaryContainer),
                 ),
                 Icon(
                   _isExpanded ? Icons.expand_less : Icons.expand_more,
@@ -94,8 +92,7 @@ class _CustomDropDownState extends State<CustomDropDown> {
                             style: TextStyle(
                                 fontSize: 14,
                                 fontWeight: FontWeight.bold,
-                                color: context
-                                    .xMaterialColorTheme.onPrimaryContainer),
+                                color: context.xMaterialColorTheme.onPrimaryContainer),
                           ),
                         ),
                       ))

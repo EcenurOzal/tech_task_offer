@@ -20,10 +20,10 @@ class CustomSlider extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _CustomSliderState createState() => _CustomSliderState();
+  CustomSliderState createState() => CustomSliderState();
 }
 
-class _CustomSliderState extends State<CustomSlider> {
+class CustomSliderState extends State<CustomSlider> {
   late double _currentValue;
 
   @override

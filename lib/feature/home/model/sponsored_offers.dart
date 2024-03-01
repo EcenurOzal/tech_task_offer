@@ -37,7 +37,7 @@ class SponsoredOffers with EquatableMixin {
   @JsonKey(name: 'product_type')
   int? productType;
   @JsonKey(name: 'sponsored_rate')
-  int? sponsoredRate;
+  num? sponsoredRate;
 
   SponsoredOffers({
     this.adButtonText,
@@ -102,7 +102,7 @@ class SponsoredOffers with EquatableMixin {
     int? listType,
     String? logoUrl,
     int? productType,
-    int? sponsoredRate,
+    num? sponsoredRate,
   }) {
     return SponsoredOffers(
       adButtonText: adButtonText ?? this.adButtonText,
